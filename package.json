@@ -1,0 +1,51 @@
+{
+  "name": "klintch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:Alexsandrrh/klintch.git",
+  "author": "Aleksandr <sascha.sadov@yandex.ru>",
+  "scripts": {
+    "new-dev": "yarn && yarn dev",
+    "dev": "gulp dev --development",
+    "build": "gulp build --production && node server.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-file-include": "^2.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-prettify": "^0.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.1",
+    "sass": "^1.16.0",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^12.0.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.6",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "request": "^2.88.0",
+    "reset.scss": "^1.0.0"
+  }
+}
